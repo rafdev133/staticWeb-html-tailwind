@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <title>Tailwind Practice</title>
+</head>
+
+
+<header>
+    <div class="navbar bg-background-color font-nunito">
+        <div class="navbar-start">
+            <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h8m-8 6h16" />
+                    </svg>
+                </div>
+                <ul tabindex="0"
+                    class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                    <li class="text-yellow-500"><a href="index.html">Home</a></li>
+                    <li class="text-yellow-500"><a href="aboutUs.html">About Us</a></li>
+                    <li class="text-yellow-500"><a href="contactUs.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <img class="btn btn-ghost" src="/assets/logo.png" alt="">
+        </div>
+        <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+                <li class="text-yellow-500"><a href="index.html">Home</a></li>
+                <li class="text-yellow-500"><a href="aboutUs.html">About Us</a></li>
+                <li class="text-yellow-500"><a href="contactUs.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="navbar-end">
+            <a class="btn bg-tertiary-color text-background-color border-none">Login</a>
+        </div>
+    </div>
+</header>
+
+<body class=" m-0 p-0">
+    <section class="2xl:w-full mx-auto py-12 px-4 md:px-12 lg:px-16 lg:py-16 bg-background-color font-poppins">
+        <div class="flex flex-col gap-5 lg:flex-row">
+            <div class="w-full">
+                <img class="w-full" src="/assets/aboutUS_img.jpg" alt="">
+            </div>
+            <div class="w-full py-5 flex flex-col gap-5 md:py-12 lg:py-16 md:gap-6 lg:gap-7">
+                <h6 class="text-heading-color text-l md:text-lg lg:text-[20px] font-semibold">About Us</h6>
+                <h1 class="text-tertiary-color text-[30px] md:text-[35px] lg:text-[50px] font-bold">Innovation at Every
+                    Step</h1>
+                <p class="text-heading-color text-sm md:text-[16px]">At AMT, we believe in the power of [industry/niche]
+                    to transform
+                    businesses and shape meaningful experiences. Our journey began with a simple yet powerful vision -
+                    to redefine the standards of excellence in [industry/niche] by blending innovation, creativity, and
+                    unwavering commitment.</p>
+                <button class="btn bg-tertiary-color border-none text-background-color w-32 h-10 font-bold text-md ">Get
+                    Started</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-gray-200 2xl:w-full mx-auto py-12 px-4 md:px-12 lg:px-16 lg:py-16 font-poppins">
+        <div class="flex flex-wrap justify-center items-center gap-14">
+            <div class="w-[284px] h-[248px] bg-background-color flex flex-col items-center justify-center ">
+                <img class="w-[124px] h-[94px]" src="/assets/creativebranding_img.png" alt="">
+                <p class="text-base text-heading-color ">Creative Branding</p>
+            </div>
+            <div class="w-[284px] h-[248px] bg-background-color flex flex-col items-center justify-center ">
+                <img class="w-[124px] h-[94px]" src="/assets/contentcreation_img.png" alt="">
+                <p class="text-base text-heading-color">Content Creation</p>
+            </div>
+            <div class="w-[284px] h-[248px] bg-background-color flex flex-col items-center justify-center ">
+                <img class="w-[124px] h-[94px]" src="/assets/eventmanagement_img.png" alt="">
+                <p class="text-base text-heading-color flex justify-center">Event Management</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="2xl:w-full mx-auto py-12 px-4 md:px-12 lg:px-16 lg:py-16 bg-background-color font-poppins">
+        <div class="flex flex-col justify-center items-center">
+            <div>
+                <h2 class="text-heading-color text-[14px] md:text-[16px] lg:text-[20px]">Our Team</h2>
+            </div>
+            <div>
+                <h1 class="text-tertiary-color font-semibold text-[40px] md:text-[40px] lg:text-[50px]">What We Offer
+                </h1>
+            </div>
+            <div class="flex flex-col md:flex-row items-center justify-center">
+                <div class="flex flex-col items-center justify-center">
+                    <img src="/assets/whatWeOffer-img1.jpg" alt="">
+                    <h3 class="text-[20px] text-heading-color font-medium">Ethan Mitchell</h3>
+                    <p class="text-[16px] text-heading-color">CEO</p>
+                </div>
+                <div class="flex flex-col items-center justify-center">
+                    <img class="pt-[20px]" src="/assets/whatWeOffer-img2.jpg" alt="">
+                    <h3 class="text-[20px] text-heading-color font-medium">Olivia Anderson</h3>
+                    <p class="text-[16px] text-heading-color">CEO</p>
+                </div>
+                <div class="flex flex-col items-center justify-center">
+                    <img src="/assets/whatWeOffer-img3.jpg" alt="">
+                    <h3 class="text-[20px] text-heading-color font-medium">Lucas Harison</h3>
+                    <p class="text-[16px] text-heading-color">CEO</p>
+                </div>
+                <div class="flex flex-col items-center justify-center">
+                    <img src="/assets/whatWeOffer-img4.jpg" alt="">
+                    <h3 class="text-[20px] text-heading-color font-medium">Sophia Bennett</h3>
+                    <p class="text-[16px] text-heading-color">CEO</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="2xl:w-full mx-auto py-12 px-4 md:px-12 lg:px-16 lg:py-16 bg-gray-200 font-poppins"
+        id="cards-container">
+        <div class="flex flex-col justify-center items-center gap-[20px]">
+            <h6 class="text-heading-color text-[16px] md:text-[18px]">Testimonial</h6>
+            <h1 class="text-primary-color text-[29px] font-bold text-center md:text-[35px] lg:text-[40px]">What's Our
+                <span class="text-gray-600 text-[29px] font-bold md:text-[35px] lg:text-[40px]">Client Say
+                    About Us</span>
+            </h1>
+        </div>
+        <div class="flex justify-center items-center mt-[20px] lg:gap-[20px] lg:flex-row" id="card-container">
+            <div class="card bg-white w-full h-[100%] p-[30px] rounded-[18px] md:w-[calc(50% - 10px)] md:p-[50px]">
+                <div>
+                    <p class="text-[14px] text-[#5C6061] pb-[30px] md:text-[16px]">Working with Talent Us Inc. was a
+                        game-changer for me. They not only helped me land a fantastic job but also provided valuable
+                        interview coaching and resume advice. Their dedication to my success was evident every step of
+                        the way. I am truly grateful for their unwavering support and guidance, which has set a solid
+                        foundation for my career growth and development.</p>
+                </div>
+                <div class="flex justify-center items-center">
+                    <img class="w-[100px] h-[100px]" src="/assets/testimonial_img.png" alt="">
+                    <h5 class="text-[16px] font-semibold pl-[20px] text-black">Juan Bautista <br><span
+                            class="text-[14px] font-medium text-gray-400">Upwork CEO</span></h5>
+                </div>
+            </div>
+            <div
+                class="card bg-white w-full h-[100%] p-[30px] rounded-[18px] md:w-[calc(50% - 10px)] md:p-[50px] hidden lg:block">
+                <div>
+                    <p class="text-[14px] text-[#5C6061] pb-[30px] md:text-[16px]">Collaborating with Talent Us Inc.
+                        marked a significant turning point in my career journey. Their assistance went beyond securing a
+                        remarkable job; they also offered crucial interview training and refined my resume. Their
+                        commitment to ensuring my success was evident throughout the entire process. I deeply appreciate
+                        their constant support and expert guidance, which has laid a strong groundwork for my
+                        professional advancement.</p>
+                </div>
+                <div class="flex justify-center items-center">
+                    <img class="w-[100px] h-[100px]" src="/assets/testimonial_img4.webp" alt="">
+                    <h5 class="text-[16px] font-semibold pl-[20px] text-black">Maria Lopez <br><span
+                            class="text-[14px] font-medium text-gray-400">Freelancer</span></h5>
+                </div>
+            </div>
+            <div
+                class="card bg-white w-full h-[100%] p-[30px] rounded-[18px] md:w-[calc(50% - 10px)] md:p-[50px] hidden lg:block">
+                <div>
+                    <p class="text-[14px] text-[#5C6061] pb-[30px] md:text-[16px]">Working alongside Talent Us Inc. was
+                        a pivotal moment in my career path. Their support extended beyond landing an exceptional job;
+                        they provided essential interview coaching and enhanced my resume. Their dedication to my
+                        success was clear at every stage. I am grateful for their consistent backing and expert advice,
+                        which has established a solid foundation for my career progression</p>
+                </div>
+                <div class="flex justify-center items-center">
+                    <img class="w-[100px] h-[100px]" src="/assets/testimonial_img2.jpg" alt="">
+                    <h5 class="text-[16px] font-semibold pl-[20px] text-black">James Smith <br><span
+                            class="text-[14px] font-medium text-gray-400">Tech Lead</span></h5>
+                </div>
+            </div>
+        </div>
+        <div class="flex justify-center gap-[40px] items-center p-[20px]">
+            <img class="arrow w-[20px] h-[20px] md:w-[25px] md:h-[25px]" id="left-arrow" src="/assets/Polygon left.png"
+                alt="">
+            <img class="arrow w-[20px] h-[20px]  md:w-[25px] md:h-[25px]" id="right-arrow"
+                src="/assets/Polygon right.png" alt="">
+        </div>
+    </section>
+
+
+
+    <section class="2xl:w-full mx-auto py-12 px-4 md:px-12 lg:px-16 lg:py-16 bg-background-color font-poppins">
+        <div class="flex flex-col lg:flex-row justify-around items-center space-y-8 lg:space-y-0 lg:space-x-8">
+            <div class="flex-shrink-0">
+                <img class="w-[83px] h-[46px]" src="/assets/logo.png" alt="Company Logo">
+            </div>
+            <div class="text-center lg:text-left">
+                <h2 class="text-heading-color font-medium text-[20px] lg:text-[24px]">Find us on Social Media</h2>
+            </div>
+            <div class="text-center lg:text-left">
+                <h2 class="text-heading-color font-medium text-[20px] lg:text-[24px]">Company</h2>
+                <p class="text-tertiary-color font-regular text-[16px]">example@gmail.com</p>
+                <p class="text-tertiary-color font-regular text-[16px]">(01) 345-1234556</p>
+            </div>
+            <div class="text-center lg:text-left">
+                <h2 class="text-heading-color font-medium text-[20px] lg:text-[24px]">Useful Links</h2>
+                <p class="text-tertiary-color font-regular text-[16px]">Home</p>
+                <p class="text-tertiary-color font-regular text-[16px]">About Us</p>
+                <p class="text-tertiary-color font-regular text-[16px]">News & Updates</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
